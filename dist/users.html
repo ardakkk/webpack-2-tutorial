@@ -1,0 +1,82 @@
+<head><link href="main.css" rel="stylesheet"></head>Html Webpack Plugin:
+<pre>
+  Error: Child compilation failed:
+  Conflict: Multiple assets emit to the same filename users.html:
+  Error: Conflict: Multiple assets emit to the same filename users.html
+  
+  - compiler.js:76 
+    [webpack-app]/[html-webpack-plugin]/lib/compiler.js:76:16
+  
+  - Compiler.js:296 Compiler.<anonymous>
+    [webpack-app]/[webpack]/lib/Compiler.js:296:10
+  
+  - Compiler.js:499 
+    [webpack-app]/[webpack]/lib/Compiler.js:499:13
+  
+  - Tapable.js:202 next
+    [webpack-app]/[tapable]/lib/Tapable.js:202:11
+  
+  - CachePlugin.js:62 Compiler.<anonymous>
+    [webpack-app]/[webpack]/lib/CachePlugin.js:62:5
+  
+  - Tapable.js:206 Compiler.applyPluginsAsyncSeries
+    [webpack-app]/[tapable]/lib/Tapable.js:206:13
+  
+  - Compiler.js:496 
+    [webpack-app]/[webpack]/lib/Compiler.js:496:10
+  
+  - Tapable.js:195 Compilation.applyPluginsAsyncSeries
+    [webpack-app]/[tapable]/lib/Tapable.js:195:46
+  
+  - Compilation.js:649 self.applyPluginsAsync.err
+    [webpack-app]/[webpack]/lib/Compilation.js:649:19
+  
+  - Tapable.js:195 Compilation.applyPluginsAsyncSeries
+    [webpack-app]/[tapable]/lib/Tapable.js:195:46
+  
+  - Compilation.js:640 self.applyPluginsAsync.err
+    [webpack-app]/[webpack]/lib/Compilation.js:640:11
+  
+  - Tapable.js:202 next
+    [webpack-app]/[tapable]/lib/Tapable.js:202:11
+  
+  - UglifyJsPlugin.js:230 Compilation.compilation.plugin
+    [webpack-app]/[webpack]/lib/optimize/UglifyJsPlugin.js:230:5
+  
+  - Tapable.js:206 Compilation.applyPluginsAsyncSeries
+    [webpack-app]/[tapable]/lib/Tapable.js:206:13
+  
+  - Compilation.js:635 self.applyPluginsAsync.err
+    [webpack-app]/[webpack]/lib/Compilation.js:635:10
+  
+  - Tapable.js:195 Compilation.applyPluginsAsyncSeries
+    [webpack-app]/[tapable]/lib/Tapable.js:195:46
+  
+  - Compilation.js:631 sealPart2
+    [webpack-app]/[webpack]/lib/Compilation.js:631:9
+  
+  - Tapable.js:195 Compilation.applyPluginsAsyncSeries
+    [webpack-app]/[tapable]/lib/Tapable.js:195:46
+  
+  - Compilation.js:579 Compilation.seal
+    [webpack-app]/[webpack]/lib/Compilation.js:579:8
+  
+  - Compiler.js:493 
+    [webpack-app]/[webpack]/lib/Compiler.js:493:16
+  
+  - Tapable.js:289 
+    [webpack-app]/[tapable]/lib/Tapable.js:289:11
+  
+  - Compilation.js:481 _addModuleChain
+    [webpack-app]/[webpack]/lib/Compilation.js:481:11
+  
+  - Compilation.js:452 processModuleDependencies.err
+    [webpack-app]/[webpack]/lib/Compilation.js:452:13
+  
+  - next_tick.js:73 _combinedTickCallback
+    internal/process/next_tick.js:73:7
+  
+  - next_tick.js:104 process._tickCallback
+    internal/process/next_tick.js:104:9
+  
+</pre><script type="text/javascript" src="bundle.js"></script>
